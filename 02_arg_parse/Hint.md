@@ -1,0 +1,1 @@
+Try using the very popular Rust cli arg parsing library [clap](https://github.com/clap-rs/clap)!
