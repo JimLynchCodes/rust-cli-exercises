@@ -33,6 +33,9 @@ It is highly recommended to work through them on your own because by just readin
 
 <br/>
 
+## Hints
+If you get stuck and have the urge to go look at the example solution, wait! First take a peek at the Hint.md file in the project to see if that gets you past your blocker!
+
 ## Running The Projects
 First ensure you have rust and cargo installed:
 ```bash
