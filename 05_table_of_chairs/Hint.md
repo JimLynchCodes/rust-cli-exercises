@@ -1,0 +1,1 @@
+Try using the [cli-table](https://crates.io/crates/clii-talbe) crate!

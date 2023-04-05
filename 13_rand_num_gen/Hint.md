@@ -1,0 +1,1 @@
+Try using the [rand](https://crates.io/crates/rand) crate to generate random numbers!

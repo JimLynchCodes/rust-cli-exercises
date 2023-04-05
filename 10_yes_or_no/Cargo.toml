@@ -1,0 +1,9 @@
+[package]
+name = "yes_or_no"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+
