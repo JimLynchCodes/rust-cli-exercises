@@ -25,6 +25,7 @@ The exercise is to create three functions in three separate files, all called fr
 The unit tests for fn1 and fn3 should check that they return the proper values. Experiment with returning a mocked value of fn1 when calling the fn2 unit test.
 
 As an integration test, verify that the grand total of 6 is printed tot he console.
+
 <br/>
 
 ## Skills Practiced
@@ -38,7 +39,3 @@ As an integration test, verify that the grand total of 6 is printed tot he conso
 - Importing a helper function and module from a subfolder
 
 <br/>
-
-## Bonus
-
-Bonus points for finding multiple different ways of implementing this!

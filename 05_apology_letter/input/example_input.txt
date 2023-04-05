@@ -1,0 +1,12 @@
+
+Fancy Letterhead
+Very Fancy, Indeed
+Very, Very Fancy
+
+
+    Dear *[__RECIPIENT_NAME__]*,
+
+    I would like to express how very deeply sorry I am for *[__THING_YOU_DID__]*.
+
+    Sincerely,
+    Your friend James
