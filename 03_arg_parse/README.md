@@ -1,5 +1,5 @@
 # Arg Parse
-Cli that reads and prints arguments!
+Build a cli tool that reads and prints arguments!
 
 <br/>
 
