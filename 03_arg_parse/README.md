@@ -1,37 +1,47 @@
-# Env Readers
-Build a cli tool that reads and prints environment variables!
+# Arg Parse
+Build a cli tool that reads and prints arguments!
 
 <br/>
 
 ## Backstory
-Imagine you want to build a cli tool that uses some secret keys or credentials. It's a _huge_ no-no to hardcode them right into your project and save them inot source control.
-
-Instead, you should probably load in these secrets as _environment variables._
+Imagine you want to build a cli tool. Well, if you want the user to be able to send some parameter or input as they run it... those are what we call _arguments._ 
 
 <br/>
 
 ## The Exercise
-The goal here is to read the environment variables in two different ways.
+Write a Rust program that takes two string arguments.
 
-The first variable should be named `MY_VAR_1=hello!!` and should be read from a .env file.
+The first argument should be required (the program errors or panics if it is not supplied with `cargo run`).
 
-The second variable should be named `MY_VAR_2` and should be exported in the same shell that the program is run.
+The second argument is optional- if it is not supplied the program continues successfully, and arg2 is set to the `None` Option variant.
 
-The values of both variables should be printed to the console.
+Also, the cli tool should accept an optional flag. The flag can be passed as the long version `--flag` or the short version `-f`, and the flag take a positive integer as a parameter. The cli tool should print the number to the console, or just "None" if called without the flag.
+
+If both arguments are passed with `cargo run` then both are printed to the console.
+
+Additional arguments are ignored (or cause an error, up to you).
 
 <br/>
 
 ## Tests
 It's up to you to decide if / how you would unit test this.
 
-Write at least one integration test that verifies the correct values were printed to the console.
+There are a few integration tests you can write, where the test code more or less calls `cargo run`, passing in a different number of args for each test, and then expecting the proper text to be printed to the console or panicking to occur. 
 
 <br/>
 
 ## Skills Practiced
 
-- Reading environment variables from a .env file
+- Reading positional cli arguments
 
-- Reading environment variables from the current execution environment
+- creating required and optional args
+
+- Flags with a short and long name
+
+- Flags that take a parameter
 
 <br/>
+
+## Bonus
+
+Bonus points for finding multiple different ways of implementing this!
