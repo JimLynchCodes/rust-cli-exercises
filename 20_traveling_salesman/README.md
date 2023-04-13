@@ -6,7 +6,7 @@ Create a cli tool that finds the shortest route for the traveling salesman to ta
 ## Backstory
 Let's suppose this map represents the world you live in, and you are a traveling salesman. You begin at one city, load up on supplies. then you visit each city to sell your items there, and finally you return home.
 
-<img src="./traveling-salesman-problem.png">
+<img src="./traveling_salesman_problem.png">
 
 To go from any one city to another has a cost (think of it as gasoline used, or hours traveled, etc). The goal is to write a function that takes:
 
