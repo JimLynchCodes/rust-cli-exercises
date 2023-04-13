@@ -9,7 +9,7 @@ Imagine you want to build a cli tool. Well, if you want the user to be able to s
 <br/>
 
 ## The Exercise
-Write a Rust program that takes two string arguments.
+Write a cli tool that takes two string arguments.
 
 The first argument should be required (the program errors or panics if it is not supplied with `cargo run`).
 
