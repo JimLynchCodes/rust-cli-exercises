@@ -105,4 +105,4 @@ Feel free to copy, modify, or distribute this code for your own personal or comm
 
 ## Thanks!
 
-Feel free to reach out to @JimLynchCodes on other platforms. Also, if you like this repo it would mean so much to me if you could please give it a star. ⭐️ Thanks for stopping by!
+Feel free to reach out to @JimLynchCodes on other platforms. Thanks for stopping by! ⭐️
