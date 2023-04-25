@@ -6,8 +6,7 @@ A barebones project that just prints the text "Hello, World"!
 ## Backstory
 Imagine you want to make the simplest Rust project possible- just the stuff needed to make a Rust project run.
 
-
-The idea here is that if you can write a Rust project that compiles, runs, and does _something_ then you can build off this build all the things you could ever imagine! 🌈
+The idea here is that if you can write a Rust project that compiles, runs, and does _something_ then you can build off this to create all the things you could ever imagine! 🌈
 
 <br/>
 
