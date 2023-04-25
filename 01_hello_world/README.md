@@ -35,4 +35,6 @@ It's up to you to decide if / how you would unit test this, but it would be nice
 
 ## Bonus
 
-Add some documentation to your own README file describing the different commands people who run when developing and testing your project.
+- Add some documentation to your own README file describing the different commands people who run when developing and testing your project.
+
+- Deploy your cli tool to cargo and/or npm so others can install it!
