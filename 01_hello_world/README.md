@@ -6,6 +6,7 @@ A barebones project that just prints the text "Hello, World"!
 ## Backstory
 Imagine you want to make the simplest Rust project possible- just the stuff needed to make a Rust project run.
 
+
 The idea here is that if you can write a Rust project that compiles, runs, and does _something_ then you can build off this build all the things you could ever imagine! 🌈
 
 <br/>
@@ -31,3 +32,7 @@ It's up to you to decide if / how you would unit test this, but it would be nice
 - Creating an integration test
 
 - Running a Rust project and tests
+
+## Bonus
+
+Add some documentation to your own README file describing the different commands people who run when developing and testing your project.
