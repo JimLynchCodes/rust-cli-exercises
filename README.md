@@ -66,6 +66,10 @@ cargo tarpaulin --out Html
 
 Then view the `tarpaulin-report.html` file in a browser.
 
+You can also run _mutation tests_ to test your tests!
+```
+cargo mutate
+```
 <br/>
 
 ## Why Rust For CLI Tools?
