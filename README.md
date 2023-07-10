@@ -10,35 +10,9 @@ This idea is to break down otherwise _scary_ Rust code into small, approachable,
 
 <br/>
 
-## How To Work Through The Examples
-The numbers prefixing each folder are meant to be a recommended path to following in exploring these projects, but feel free to jump around as they are completely independent of each other!
-
-Each folder is a completely independent Rust project, created with the `cargo new my_project_name` command.
-
-Each project has a README that explains the problem being solved and skills practiced.
-
-<br/>
-
-## Build Your Own "Rust Toolbox"
-By building little Rust applications like these you are documenting how to accomplish and test different things you might want a command line utility to do.
-
-If you starting building your own portfolio of Rust cli tools then one day when you _actually want to solve some business problem_ with Rust you won't be starting from scratch and can use some of your old code and/or experiences to help you!
-
-<br/>
-
-## Solutions
-If you really get stuck and want to see Jim's solutions, see the [rust-cli-examples](https://github.com/JimLynchCodes/rust-cli-examples) repo.
-
-It is highly recommended to work through them on your own because by just reading the final code you are missing out on seeing all the compiler and linter errors along the way that led the code to end up this way...
-
-<br/>
-
-## Hints
-If you get stuck and have the urge to go look at the example solution, wait! First take a peek at the Hint.md file in the project to see if that gets you past your blocker!
-
-<br/>
-
 ## Running The Projects
+Each folder in the root directory contains a completely independent Rust project meant to be run with `cargo`, which can be installed via [rustup](https://rustup.rs/).
+
 First ensure you have rust and cargo installed:
 ```bash
 cago --version
@@ -48,9 +22,6 @@ You can then navigate into each project folder and run the cli tool:
 ```
 cargo run
 ```
-
-_Note: look for tips and information for a better understanding in the rust source code files of each project_ 
-
 
 You can also run the automated tests:
 ```
@@ -70,6 +41,33 @@ You can also run _mutation tests_ to test your tests!
 ```
 cargo mutate
 ```
+
+<br/>
+
+## How To Work Through The Examples
+The numbers prefixing each folder are meant to be a recommended path to following in exploring these projects, but feel free to jump around as they are completely independent of each other!
+
+Each project has a README that explains the problem being solved and skills practiced.
+
+<br/>
+
+## Hints
+If you get stuck and have the urge to go look at the example solution, wait! First take a peek at the Hint.md file in the project to see if that gets you past your blocker!
+
+<br/>
+
+## Solutions
+If you really get stuck and want to see Jim's solutions, see the [rust-cli-examples](https://github.com/JimLynchCodes/rust-cli-examples) repo.
+
+It is highly recommended to work through them on your own because by just reading the final code you are missing out on seeing all the compiler and linter errors along the way that led the code to end up this way...
+
+<br/>
+
+## Build Your Own "Rust Toolbox"
+By building little Rust applications like these you are documenting how to accomplish and test different things you might want a command line utility to do.
+
+If you starting building your own portfolio of Rust cli tools then one day when you _actually want to solve some business problem_ with Rust you won't be starting from scratch and can use some of your old code and/or experiences to help you!
+
 <br/>
 
 ## Why Rust For CLI Tools?
