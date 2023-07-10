@@ -105,6 +105,8 @@ Feel free to copy, modify, or distribute this code for your own personal or comm
 
 <br/>
 
-## Thanks!
+---
 
-Feel free to reach out to @JimLynchCodes on other platforms. Thanks for stopping by! ⭐️
+<br/>
+
+Thanks for stopping by! 🦀
