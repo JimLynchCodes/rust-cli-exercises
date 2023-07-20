@@ -47,7 +47,7 @@ cargo mutate
 ## How To Work Through The Examples
 The numbers prefixing each folder are meant to be a recommended path to following in exploring these projects, but feel free to jump around as they are completely independent of each other!
 
-Each project has a README that explains the problem being solved and skills practiced.
+Each project has a README that explains the problem to be solved and skills practiced.
 
 <br/>
 
