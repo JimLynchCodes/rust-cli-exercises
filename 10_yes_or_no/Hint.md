@@ -1,1 +1,0 @@
-Try using a `Confirm` prompt from the [inquire](https://crates.io/crates/inquire) crate!

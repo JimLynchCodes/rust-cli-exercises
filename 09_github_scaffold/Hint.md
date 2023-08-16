@@ -1,1 +1,0 @@
-Try using the [git2](https://crates.io/crates/git2) crate and the `clone` method!

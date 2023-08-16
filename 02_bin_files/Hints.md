@@ -1,1 +1,1 @@
-Try following the [package layout recommended in the Cargo Book](https://doc.rust-lang.org/cargo/guide/project-layout.html).
+- Try following the [package layout recommended in the Cargo Book](https://doc.rust-lang.org/cargo/guide/project-layout.html).

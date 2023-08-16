@@ -44,4 +44,4 @@ There are a few integration tests you can write, where the test code more or les
 
 ## Bonus
 
-Bonus points for finding multiple different ways of implementing this!
+- Bonus points for finding multiple different ways of implementing this!

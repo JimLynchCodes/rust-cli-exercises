@@ -1,1 +1,0 @@
-Try using a crate for making GET requests, like [reqwest](https://crates.io/crates/reqwest), along with a json parsing crate like [serde_json](https://crates.io/crates/serde_json).

@@ -1,1 +1,0 @@
-Try using the [image](https://crates.io/crates/image) crate and the `resize` method!
