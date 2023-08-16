@@ -15,20 +15,28 @@ Each folder in the root directory contains a completely independent Rust project
 
 First ensure you have rust and cargo installed:
 ```bash
-cago --version
+cargo --version
 ```
+
+<br/>
 
 You can then navigate into each project folder and run the cli tool:
 ```
 cargo run
 ```
 
+<br/>
+
 You can also run the automated tests:
 ```
 cargo test
 ```
 
+<br/>
+
 _Note: This runs both unit tests and integration tests!_
+
+<br/>
 
 In addition to just running the tests, you can check code coverage:
 ```
@@ -37,29 +45,53 @@ cargo tarpaulin --out Html
 
 Then view the `tarpaulin-report.html` file in a browser.
 
-You can also run _mutation tests_ to test your tests!
-```
-cargo mutate
-```
+You can also run _mutation tests_ to test your tests using libraries such as [cargo-mutants](https://crates.io/crates/cargo-mutants)!
 
 <br/>
 
-## How To Work Through The Examples
+## Work Through In any Order
 The numbers prefixing each folder are meant to be a recommended path to following in exploring these projects, but feel free to jump around as they are completely independent of each other!
 
 Each project has a README that explains the problem to be solved and skills practiced.
 
 <br/>
 
-## Hints
-If you get stuck and have the urge to go look at the example solution, wait! First take a peek at the Hint.md file in the project to see if that gets you past your blocker!
+## Anatomy of An Exercise
+
+Each exercise will have a README.md file in the root of the project with these sections:
+
+- ## Title
+     Name for the project with a little one sentence blurb.
 
 <br/>
 
-## Solutions
-If you really get stuck and want to see Jim's solutions, see the [rust-cli-examples](https://github.com/JimLynchCodes/rust-cli-examples) repo.
+- ## Backstory
+    An imaginary real world situation where this code could be useful.
 
-It is highly recommended to work through them on your own because by just reading the final code you are missing out on seeing all the compiler and linter errors along the way that led the code to end up this way...
+<br/>
+
+- ## The Exercise
+    The goal / success criteria of what you need to build.
+
+<br/>
+
+- ## Tests
+    Some suggestions around what unit and integration tests to write.
+
+<br/>
+
+- ## Skills Practiced
+    Specific "toolbox" skills used to complete the exercise.
+
+<br/>
+
+- ## Bonus
+    Some ideas for how to take the exercise further and expand on it.
+
+<br/>
+
+- ## Hints
+    Located in a Hints.md file, these are meant to get you going in the right direction without completely giving away the solution.
 
 <br/>
 
@@ -90,6 +122,13 @@ There are just a few reasons why Rust makes an excellent language for writing co
 - ### Coding In Rust Is Fun!!
     
     Once you get the hang of it you may find that you actually really enjoy working on projects in Rust. There is a reason why it is voted the "Most Loved Programming Language" on the Stack Overflow survey every year! 
+
+<br/>
+
+## Solutions
+If you really get stuck and want to see Jim's solutions, see the [rust-cli-examples](https://github.com/JimLynchCodes/rust-cli-examples) repo.
+
+It is highly recommended to work through them on your own because by just reading the final code you are missing out on seeing all the compiler and linter errors along the way that led the code to end up this way...
 
 <br/>
 
