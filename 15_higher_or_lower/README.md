@@ -21,11 +21,11 @@ Only allow guesses that are valid integers with the possible range.
 
 After a guess is made, it is "scored" and response is given:
 
-- if the number is equal to the secret number, the user wins! Print the number of guesses it took.
+- If the number is equal to the secret number, the user wins! Print the number of guesses it took.
 
-- if the secret number is higher than the guessed number, respond something like, "your guess was too low".
+- If the secret number is higher than the guessed number, respond something like, "your guess was too low".
 
-- if the secret number is lower than the guessed number, respond something like, "your guess was too high".
+- If the secret number is lower than the guessed number, respond something like, "your guess was too high".
 
 You can optionally add a maximum number of guesses. If the remaining guesses reaches zero and correct number hasn't been guessed, the user loses! Display what the secret number was along with some kind of "better luck next time!" message. 
 
@@ -35,6 +35,7 @@ You can optionally add a maximum number of guesses. If the remaining guesses rea
 Add unit tests for the pure logic functions here.
 
 Writing integration tests can be tricky for this one, but feel free to give it a go!
+
 <br/>
 
 ## Skills Practiced
