@@ -3,6 +3,8 @@ Create a cli tool that plays a letter guessing game like [Wordle](https://www.ny
 
 ___Disclaimer: We are not affiliated at all with Wordle or New York Times. This is simply just a toy project to practice building cli tools and coding in Rust.___
 
+<br/>
+
 ## Backstory
 Imagine you want to build a fun word guessing game for your friends to play in the command line- like wordle, but _better!_
 
@@ -36,7 +38,8 @@ If the number of guesses reaches zero and correct word hasn't been guessed, the 
 ## Tests
 It's up to you to decide if / how you would unit test this. Definitely add unit tests for the pure logic functions!
 
-Writing integration tests can be tricky for this one, but feel free to give it a go!
+Writing integration tests can be tricky for this one, but give it a shot!
+
 <br/>
 
 ## Skills Practiced
