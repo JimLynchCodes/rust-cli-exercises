@@ -1,12 +1,12 @@
-# Mongo CRUD
-Create a cli tool that creates, reads, updates, and deletes data to and from a MongoDB database!
+# Database CRUD
+Create a cli tool that creates, reads, updates, and deletes data to and from a database!
 
 <br/>
 
 ## Backstory
 Being able to read from and write to a databases is such an empowering skill that we had to create an example here!
 
-Since MongoDB is a fast, scalable, and easy to use database your company has decided to use it, and now you want to interact with it via your command line tools! 
+Data needs to exist outside of the user's own device, and a great place for your applications and cli tools to store data is a database!
 
 <br/>
 
@@ -15,7 +15,7 @@ Write a cli tool that allows you to create, read, update, and delete records.
 
 It's up to you to decide if you would like to accept a "command" as the first a cli tool argument, use an inquire "select" input for the user to choose, or something else!
 
-Suppose we have a single mongo collection named _Users_ with documents that look something like this:
+Suppose we have a single table / collection named _Users_ with documents that look something like this:
 
 ```ts
 {
@@ -25,7 +25,7 @@ Suppose we have a single mongo collection named _Users_ with documents that look
 }
 ```
 
-_Note: _id is the idiomatic name of the primary key field for MongoDb_
+_Note: _id is the idiomatic name of the primary key field for MongoDb. Use whatever makes the most sense for the database you are using._
 
 We want to be able to do these db interactions:
 
@@ -60,7 +60,7 @@ For your integration tests, run a local mongo instance, run your tests that call
 
 - Storing and reading secrets
 
-- Connecting to a \[MongoDb\] database
+- Connecting to a database
 
 - Various querying techniques 
 
@@ -69,4 +69,10 @@ For your integration tests, run a local mongo instance, run your tests that call
 ## Bonus!
 - Build a read query that implements cursor pagination
 
-- When reading an individual document, incorprate a mongo "projection parameter" to efficiently read only a subset of fields from the document  
+- When reading an individual document, incorprate a mongo "projection parameter" to efficiently read only a subset of fields from the document
+
+- Try to implement this with one of more of these databases:
+    - MySQL
+    - MongoDB
+    - Postgres
+    - Aerospike
