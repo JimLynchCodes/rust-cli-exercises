@@ -27,6 +27,7 @@ For this example, just print the final user submission to the console.
 It's up to you to decide how you would unit test this code.
 
 Create at least one integration test that sends the necessary inputs and asserts the proper output is printed to the console.
+
 <br/>
 
 ## Skills Practiced
