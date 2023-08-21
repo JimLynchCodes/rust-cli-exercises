@@ -26,7 +26,7 @@ The stutter effect is defined by copying the beginning portion of the audio clip
 ## Tests
 It's up to you to decide how to unit test this code.
 
-Have at least one integration test that the output file matches some known-to-be-good example output file when passed the same input audio file.
+Have at least one integration test that verifies the created output file matches some known-to-be-good example output file when passed the same input audio file.
 
 <br/>
 
@@ -34,9 +34,11 @@ Have at least one integration test that the output file matches some known-to-be
 
 - Reading and writing audio files
 
-- Applying effects to audio buffers
+- Manipulating audio buffers
 
 <br/>
 
 ## Bonus
-Rather than a cli tool, try deploying this as a VST plugin for DAW applications like Logic Pro and Pro Tools!
+- Rather than a cli tool, try deploying this as a VST plugin for DAW applications like Logic Pro and Pro Tools!
+
+- Add an additional argument for starting the stutter clip from a point within the clip rather than always from the beginning.
