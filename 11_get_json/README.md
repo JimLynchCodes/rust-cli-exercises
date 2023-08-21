@@ -33,6 +33,6 @@ Write a unit test that calls out the endpoint and expects the correct text to be
 
 <br/>
 
-## Bonus!
+## Bonus
 
 Try two different ways of parsing the json: one by deserializing it to a defined struct and one where you work with it as a dynamic value blob of data!

@@ -66,7 +66,7 @@ For your integration tests, run a local mongo instance, run your tests that call
 
 <br/>
 
-## Bonus!
+## Bonus
 - Build a read query that implements cursor pagination
 
 - When reading an individual document, incorprate a mongo "projection parameter" to efficiently read only a subset of fields from the document

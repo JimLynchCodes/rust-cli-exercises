@@ -38,6 +38,6 @@ Create at least one integration test where the cli tool correctly prints "Happy 
 
 <br/>
 
-## Bonus!
+## Bonus
 
 Use a fancy command-line date picker component for collecting the user's birthday!

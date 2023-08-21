@@ -37,7 +37,7 @@ Create at least one integration test that sends the necessary inputs and asserts
 
 <br/>
 
-## Bonus!
+## Bonus
 
 - Store this information into a database
 
